@@ -1,2 +1,94 @@
-h1 {
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main__container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header__name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 128px;
+    color: #FFFFFF;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.header__name__surname {
+    font-weight: 600;
+    font-size: 96px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 50px;
+}
+
+.header__name__profession {
+
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.035em;
+    line-height: 145px;
+    color: #FFFFFF;
+}
+
+.header__section {
+    display: flex;
+    padding: 46px 0 46px 80px;
+}
+
+.wrapper__header_name {
+    padding: 20px 0 0 149px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    height: 67px;
+
+}
+
+.header {
+    background-color: #656565;
+    width: max-content;
+}
+
+.nav {
+    background-color: #3E3E3F;
+    width: 1440px;
+    font-size: 20px;
+    letter-spacing: 0.045em;
+}
+
+.nav__item {
+    padding: 0 86px 0 0;
+    line-height: 27px;
+}
+
+.nav__item:nth-child(6) {
+    padding: 0;
+}
+
+.nav__link {
+    color: #FFFFFF;
+
 }
