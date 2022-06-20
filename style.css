@@ -1,5 +1,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.025em;
+    color: #8C8D8F;
+
 }
 
 
@@ -26,14 +30,17 @@ html {
     scroll-behavior: smooth;
 }
 
-
-.header__first_name {
+.header__first_name,
+.section__heading {
     font-family: 'Roboto', sans-serif;
-    font-size: 128px;
-    color: #FFFFFF;
     letter-spacing: 0.09em;
     text-transform: uppercase;
     font-weight: 900;
+}
+
+.header__first_name {
+    font-size: 128px;
+    color: #FFFFFF;
 }
 
 
@@ -104,20 +111,19 @@ html {
 }
 
 
-.section__left,
-.section__right {
-    padding: 63px 80px 60px 80px;
-}
+
 
 
 .section__left {
     background-color: #E9EAEC;
     width: 546px;
+    padding: 63px 80px 60px 80px;
 
 }
 
 
 .section__right {
+    padding: 63px 80px 60px 120px;
     width: 894px;
 }
 
@@ -126,6 +132,60 @@ html {
     display: flex;
 }
 
+.section__heading {
+    font-size: 35px;
+    color: #3E3E3F;
+}
+
+.line__heading {
+    padding: 29px 0 38px;
+}
+
+.section__text{
+    line-height: 40px;
+}
+
+
+.text_width {
+    width: 450px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.contact__link{
+    color: #8C8D8F;
+    padding-bottom: 5px;
+}
+
+.icon__github {
+    background-image: url(./assets/svg/github_gray.svg);
+}
+
+
+.icon__telegram{
+    background-image: url(./assets/svg/telegram.svg);
+}
+
+
+.icon__email{
+    background-image: url(./assets/svg/email.svg);;
+}
+
+
+.icon__map{
+    background-image: url(./assets/svg/map.svg);
+}
+
+
+.contact__icon {
+    background-size: cover;
+    margin-right: 18px;
+    width: 20px;
+    height: 20px;
+}
 
 .footer {
     background-color: #656565;
