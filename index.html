@@ -17,7 +17,7 @@
 <body>
      <div class="main__container">
           <header class="header">
-               <nav class="nav">
+               <nav class="header__nav">
                     <ul class="nav__list">
                          <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
                          <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
@@ -27,21 +27,54 @@
                          <li class="nav__item"><a href="#code" class="nav__link">Code</a></li>
                     </ul>
                </nav>
-               <section class="header__section">
+               <section class="header__content">
                     <img class="header__foto" alt="foto" src="./assets/img/foto.png" width="380" height="380">
-                    <div class="wrapper__header_name">
-                         <h1 class="header__name">Andrey </h1>
-                         <p class="header__name__surname">Molodov</p>
-                         <p class="header__name__profession">Junior Frontend Developer</p>
+                    <div class="header_name">
+                         <h1 class="header__first_name">Andrey </h1>
+                         <p class="header__second_name">Molodov</p>
+                         <p class="header__profession">Junior Frontend Developer</p>
                     </div>
                </section>
 
           </header>
-          <main class="main">
-
+          <main>
+               <div class="wrapper__section">
+                    <section class="section__left">
+                         <h2 class="section__heading">
+                              About me
+                         </h2>
+                         <div class="line__heading">
+                              <img alt="" src="./assets/svg/line.svg">
+                         </div>
+                         <p class="section__text">
+                              I like frontend development because you can immediately see your result.
+                         </p>
+                    </section>
+                    <section class="section__right">
+                         <h2 class="section__heading">
+                              About me
+                         </h2>
+                         <div class="line__heading">
+                              <img alt="" src="./assets/svg/line.svg">
+                         </div>
+                         <p class="section__text">
+                              I like frontend immediately see your result.
+                         </p>
+                    </section>
+               </div>
           </main>
           <footer class="footer">
-
+               <div class="footer__logo_rsshool">
+                    <a href="https://rs.school/js/"><img alt="logo rsshool" src="./assets/svg/rs_school_js.svg"
+                              width="120" height="45"></a>
+               </div>
+               <div class="footer__year">
+                    <span>2022</span>
+               </div>
+               <div class="footer__github">
+                    <a href="https://github.com/Andrey-ml"><img alt="github" src="./assets/svg/github_white.svg"
+                              width="43" height="42"></a>
+               </div>
           </footer>
      </div>
 </body>
