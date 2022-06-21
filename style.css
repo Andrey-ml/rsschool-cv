@@ -111,9 +111,6 @@ html {
 }
 
 
-
-
-
 .section__left {
     background-color: #E9EAEC;
     width: 546px;
@@ -141,7 +138,7 @@ html {
     padding: 29px 0 38px;
 }
 
-.section__text{
+.section__text {
     line-height: 40px;
 }
 
@@ -155,7 +152,8 @@ html {
     align-items: center;
     padding-bottom: 5px;
 }
-.contact__link{
+
+.contact__link {
     color: #8C8D8F;
     padding-bottom: 5px;
 }
@@ -165,17 +163,18 @@ html {
 }
 
 
-.icon__telegram{
+.icon__telegram {
     background-image: url(./assets/svg/telegram.svg);
 }
 
 
-.icon__email{
-    background-image: url(./assets/svg/email.svg);;
+.icon__email {
+    background-image: url(./assets/svg/email.svg);
+    ;
 }
 
 
-.icon__map{
+.icon__map {
     background-image: url(./assets/svg/map.svg);
 }
 
@@ -186,6 +185,12 @@ html {
     width: 20px;
     height: 20px;
 }
+
+.list__item {
+    margin-bottom: 5px;
+    list-style: inside;
+}
+
 
 .footer {
     background-color: #656565;
